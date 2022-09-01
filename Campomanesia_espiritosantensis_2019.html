@@ -232,7 +232,28 @@
       </div>
     </div>
   </section>
-        
+         
+    <section class="section pb-0">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <div class="notification is-size-7 citation">
+              <div class="citation-icon has-text-grey-light">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <div>
+                    
+    CNCFlora. Campomanesia espiritosantensis in Lista Vermelha da flora brasileira versão 2012.2 Centro Nacional de Conservação da Flora.
+    Disponível em &lt;http://cncflora.jbrj.gov.br/portal/pt-br/profile/Campomanesia espiritosantensis&gt;. Acesso em 30 julho 2022.                
+
+                    
+              </div>
+            </div>
+          </div>
+          <div lass="column"></div>
+        </div>
+      </div>
+    </section>
         
   <section class="section pb-0" id="occurrences">
     <div class="container">
@@ -629,7 +650,7 @@
       <div class="modal-background"></div>
       <div class="modal-content">
         <div class="box">
-          <h1 class="title is-5">Flutuações extremas</h1>
+          <h1 class="title is-5">Flutuações extremas (critérios B e C2)</h1>
           <p class="is-size-6 has-text-weight-normal mb-3" style="line-height:170%;">Podemos caracterizar flutuações extremas quando o tamanho da população ou área de distribuição do táxon varia de forma ampla, rápida e frequente, em geral com variação maior que uma ordem de magnitude (ou seja, aumento ou diminuição de dez vezes) (UICN 2001, 2012b).</p><p class="is-size-6 has-text-weight-normal mb-3" style="line-height:170%;">Flutuações extremas são incluídas nos critérios B e C como reflexo da relação positiva entre o risco de extinção e a variação na taxa de crescimento  populacional (Burgman et al. 1993). Populações que sofrem flutuações extremas provavelmente têm taxas de crescimento altamente variáveis e, portanto, estão expostas a maiores riscos de extinção do que populações com níveis mais baixos de variabilidade.</p>
           <p class="is-size-7 has-text-grey mt-3 has-text-weight-normal"><em>Diretrizes para o Uso das Categorias e Critérios da Lista Vermelha da UICN.</em></p>
         </div>
@@ -680,7 +701,10 @@
         
         <div class="columns pl-3 pr-3 mt-3 ">
             <div class="column ">
-    <h6 class="title is-7 mb-2 has-text-grey-dark">EOO</h6>
+    <h6 class="title is-7 mb-2 has-text-grey-dark">
+  EOO <span class="icon is-clickable has-text-grey js-modal-trigger" data-target="eoo-modal-id"><i class="fas fa-info-circle"></i></span>
+    
+  </h6>
     
         <p class="is-size-7 pt-0 mt-0 mb-1">
             <em>Extensão de Ocorrência</em>
@@ -688,7 +712,10 @@
     
     <p style="line-height:180% !important;text-align: justify">4.346&nbsp;km<sup>2</sup></p>
 </div><div class="column ">
-    <h6 class="title is-7 mb-2 has-text-grey-dark">AOO</h6>
+    <h6 class="title is-7 mb-2 has-text-grey-dark">
+  AOO <span class="icon is-clickable has-text-grey js-modal-trigger" data-target="aoo-modal-id"><i class="fas fa-info-circle"></i></span>
+    
+  </h6>
     
         <p class="is-size-7 pt-0 mt-0 mb-1">
             <em>Área de Ocupação</em>
@@ -1422,7 +1449,7 @@
             </div>
             <div class="column">
               <p class="is-size-7 has-text-grey-light">
-                <em>Ficha de avaliação gerada em: 12 de agosto de 2022</em><br />
+                <em>Ficha de avaliação gerada em: 1 de setembro de 2022</em><br />
                 <em>Avaliação realizada em: 24 de setembro de 2019</em>
               </p>
               
@@ -1508,11 +1535,11 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>FLONA Rio Preto</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
@@ -1524,7 +1551,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Luiza, A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.38213951,-40.02813818],
@@ -1541,11 +1568,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Linhares</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1553,7 +1580,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Folli, D.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.161753,-39.934817],
@@ -1566,15 +1593,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Reserva Florestal da CVRD, estrada JacarandÃ¡, ant. 232, km 3630, lado esquerdo.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Linhares</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1582,7 +1609,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Folli, D.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-18.97132125,-40.74858238],
@@ -1595,15 +1622,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>São José, estrada p/ Vila Verde, sítio Dois Irmãos. Inselbergue</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Águia Branca</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1611,7 +1638,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>E. S. Leal</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.139194,-40.064444],
@@ -1624,15 +1651,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Reserva Natural Vale - Estrada da Mantegueira, área de mata alta.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Linhares</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1640,7 +1667,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Valdemarin. K.S.; Flores, T.B.; Colletta, G.D.; Scaravelli, F.S.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.928282,-40.13672],
@@ -1653,15 +1680,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Coqueiral: Área limpa.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Aracruz</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1669,7 +1696,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Oliveira, RN</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.381021,-40.108842],
@@ -1682,15 +1709,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td></td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>LINHARES</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1698,7 +1725,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Folli, D.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.381021,-40.108842],
@@ -1711,15 +1738,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td></td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>LINHARES</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1727,7 +1754,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Folli, D.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.377491,-39.728527],
@@ -1740,15 +1767,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Degredo. Vegetação de restinga. Estrada ligando Pontal do Ipiranga á Degredo. Floresta alta sobre cordão arenoso.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Linhares</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1756,7 +1783,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Menezes,L.F.T.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.139291,-40.068227],
@@ -1773,11 +1800,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Linhares</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1785,7 +1812,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Siqueira, G.S.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-18.984833,-40.662472],
@@ -1798,15 +1825,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Santa Luzia, prop.: Ciro Ferreira</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Águia Branca</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1814,7 +1841,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>V. Demuner</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-20.745917,-41.290191],
@@ -1827,15 +1854,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Floresta Nacional Pacotuba. 20.7500°S, 41°.2833°W</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Cachoeiro de Itapemirim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1843,7 +1870,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moreira, L.N.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-19.381021,-40.108842],
@@ -1856,15 +1883,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td></td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Espírito Santo</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>LINHARES</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1872,7 +1899,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Folli, D.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`)]);
     overlays["Ocorrências"] = occurrences;

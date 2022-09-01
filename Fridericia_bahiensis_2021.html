@@ -234,7 +234,25 @@
       </div>
     </div>
   </section>
-        
+         
+    <section class="section pb-0">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <div class="notification is-size-7 citation">
+              <div class="citation-icon has-text-grey-light">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <div>
+                    
+                    Amorim, E., Ferreira, G., Bicalho, M., Aragão, L., Lohmann, L.&nbsp;2021.&nbsp;<em>Fridericia bahiensis</em>.&nbsp;'Avaliações de Risco de extinção'.&nbsp;http://link/Fridericia_bahiensis_2021.html.
+              </div>
+            </div>
+          </div>
+          <div lass="column"></div>
+        </div>
+      </div>
+    </section>
         
   <section class="section pb-0" id="occurrences">
     <div class="container">
@@ -574,7 +592,7 @@
       <div class="modal-background"></div>
       <div class="modal-content">
         <div class="box">
-          <h1 class="title is-5">Flutuações extremas</h1>
+          <h1 class="title is-5">Flutuações extremas (critérios B e C2)</h1>
           <p class="is-size-6 has-text-weight-normal mb-3" style="line-height:170%;">Podemos caracterizar flutuações extremas quando o tamanho da população ou área de distribuição do táxon varia de forma ampla, rápida e frequente, em geral com variação maior que uma ordem de magnitude (ou seja, aumento ou diminuição de dez vezes) (UICN 2001, 2012b).</p><p class="is-size-6 has-text-weight-normal mb-3" style="line-height:170%;">Flutuações extremas são incluídas nos critérios B e C como reflexo da relação positiva entre o risco de extinção e a variação na taxa de crescimento  populacional (Burgman et al. 1993). Populações que sofrem flutuações extremas provavelmente têm taxas de crescimento altamente variáveis e, portanto, estão expostas a maiores riscos de extinção do que populações com níveis mais baixos de variabilidade.</p>
           <p class="is-size-7 has-text-grey mt-3 has-text-weight-normal"><em>Diretrizes para o Uso das Categorias e Critérios da Lista Vermelha da UICN.</em></p>
         </div>
@@ -607,7 +625,10 @@
         
         <div class="columns pl-3 pr-3 mt-3 ">
             <div class="column ">
-    <h6 class="title is-7 mb-2 has-text-grey-dark">EOO</h6>
+    <h6 class="title is-7 mb-2 has-text-grey-dark">
+  EOO <span class="icon is-clickable has-text-grey js-modal-trigger" data-target="eoo-modal-id"><i class="fas fa-info-circle"></i></span>
+    
+  </h6>
     
         <p class="is-size-7 pt-0 mt-0 mb-1">
             <em>Extensão de Ocorrência</em>
@@ -615,7 +636,10 @@
     
     <p style="line-height:180% !important;text-align: justify">469.224&nbsp;km<sup>2</sup></p>
 </div><div class="column ">
-    <h6 class="title is-7 mb-2 has-text-grey-dark">AOO</h6>
+    <h6 class="title is-7 mb-2 has-text-grey-dark">
+  AOO <span class="icon is-clickable has-text-grey js-modal-trigger" data-target="aoo-modal-id"><i class="fas fa-info-circle"></i></span>
+    
+  </h6>
     
         <p class="is-size-7 pt-0 mt-0 mb-1">
             <em>Área de Ocupação</em>
@@ -1800,7 +1824,7 @@
             </div>
             <div class="column">
               <p class="is-size-7 has-text-grey-light">
-                <em>Ficha de avaliação gerada em: 12 de agosto de 2022</em><br />
+                <em>Ficha de avaliação gerada em: 1 de setembro de 2022</em><br />
                 <em>Avaliação realizada em: 11 de fevereiro de 2021</em>
               </p>
               <p class="mt-3 is-size-7 has-text-grey-light">Ficha da espécie no Reflora (Flora e Funga do Brasil): 
@@ -1887,15 +1911,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Entre Itaneiras e Canto do Buriti (Entrada para São João do Piauí)</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Piauí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São João do Piauí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1903,7 +1927,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>P.Bezerra</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-10.799722,-44.099722],
@@ -1920,11 +1944,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Mansidão</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1932,7 +1956,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moura, EO</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.7,-43.233333],
@@ -1945,15 +1969,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Trilha da estrada de terra. Beira do Rio Paramirim.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Morpará</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1961,7 +1985,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Conceição, A.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.539354,-40.684584],
@@ -1974,15 +1998,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada Maracás/Contendas do Sincorá, 32Km de Maracás</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Maracás</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -1990,7 +2014,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>S. Nunes</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.753333,-39.783056],
@@ -2003,15 +2027,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Orla exterior da mata da base.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itatim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2019,7 +2043,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Melo, E.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.49518199,-40.55523305],
@@ -2032,15 +2056,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Rod. BA 26 (Estrada Jequié-Maracás)</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Maracás</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2048,7 +2072,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>L. Peixoto</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.551413388,-43.17490767],
@@ -2065,11 +2089,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Campo Alegre de Lourdes</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2077,7 +2101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L. .P.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.864167,-43.050833],
@@ -2090,15 +2114,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Rodovia Jaíba-Itacarambi, próximo a Mocambinho (Mun. Mocambinho).</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Riacho dos Machados</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2106,7 +2130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>G. Hatschbach; M. Hatschbach, E. Barbosa</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.372607,-44.040168],
@@ -2119,15 +2143,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>APA Sabonetal, fazenda Cantagalo, proximidades da Lagoa do Furadão</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itacarambi</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2135,7 +2159,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Castro, RM; Góis, L; Melo, PHA</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.407508,-44.009503],
@@ -2148,15 +2172,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>APA Sabonetal, fazenda Cantagalo, proximidades da Lagoa do Furadão</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itacarambi</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2164,7 +2188,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Castro, RM; Góis, L; Melo, PHA</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.583042,-41.534373],
@@ -2181,11 +2205,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itaobim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2193,7 +2217,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Mendes Magalhães;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.64810023,-44.09254593],
@@ -2210,11 +2234,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Manga</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2222,7 +2246,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Mizushima, M.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.965147,-38.43424],
@@ -2235,15 +2259,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Região Metropolitana Salvador, Condomínio Grenville</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Salvador</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2251,7 +2275,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, ML; Queiroz, EP; Costa, AS; Oliveira, GR de;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.890833,-40.122222],
@@ -2264,15 +2288,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Morro da Torre.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Jequié</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2280,7 +2304,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L.P.de</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.498111,-40.553776],
@@ -2293,15 +2317,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Road. BA0-26, 15 km ae SW de Maracás. Folha SD-24 (14-40a).</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Maracás</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2309,7 +2333,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>S. A. Mori</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.349777,-42.117905],
@@ -2322,15 +2346,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Mun.: Agua Quente. 8km ao leste da cidade, povoado de Abbadia.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Érico Cardoso</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2338,7 +2362,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>R.M. Harley;M. Taylor</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.193056,-41.865],
@@ -2351,15 +2375,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada para a Bunina.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Gabriel</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2367,7 +2391,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Machado, R.F.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.009956,-45.520009],
@@ -2380,15 +2404,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada S. Desidério.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Barreiras</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2396,7 +2420,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>G.A. Black;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.879722,-43.739722],
@@ -2413,11 +2437,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Wanderley</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2425,7 +2449,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moraes, TM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.790528,-39.063365],
@@ -2438,15 +2462,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Serra da Copioba;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Felipe</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2454,7 +2478,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moreira, D.M.; Vitório, C.D.P. & Simões, S.S.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.480278,-43.152222],
@@ -2467,15 +2491,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada para a comunidade de Pitomba.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Campo Alegre de Lourdes</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2483,7 +2507,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Nunes, T.S.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.367266,-44.026726],
@@ -2496,15 +2520,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>APA Sabonetal, fazenda Agropeva, Cercadinho</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itacarambi</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2512,7 +2536,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Melo, PHA; Góis, L; Castro, RM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.11944,-44.2225],
@@ -2525,15 +2549,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>cerrado misturado a pasto liana. Januaria, distrito d Fabiao, antes do cerrado do Judas</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itacarambi</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2541,7 +2565,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Julio A. Lombardi</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.38883103,-41.08297329],
@@ -2554,15 +2578,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Entre Jequitinhonha e Pedra Azul</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Jequitinhonha</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2570,7 +2594,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Shepherd, G.J.; et al.; et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.483333,-43.183333],
@@ -2587,11 +2611,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Paratinga</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2599,7 +2623,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Silva, JS</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.573409,-43.127285],
@@ -2612,15 +2636,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estreito IV. Divisa dos Estados MG/BA. Proximidades da Lagoa Grande. Solo arenoso.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Sebastião Laranjeiras</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2628,7 +2652,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Brochado, AL;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.551413388,-43.17490767],
@@ -2641,15 +2665,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Lagoa do Barro Genoário, Campo Alegre de Lourdes.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Campo Alegre de Lourdes</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2657,7 +2681,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, M.L.S.;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.586111,-44.32],
@@ -2670,15 +2694,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Ca, 5 Km S em estrada de terra que cruza pequeno ramal que sai a 5.1 km E de Ponto d'água, a 24,4 Km S de São Félix do Coribe na estrada para Coribe.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Coribe</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2686,7 +2710,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L.P.de</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.7275,-39.776389],
@@ -2699,15 +2723,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Morro do Letreiro Face Leste T3 4 4.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itatim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2715,7 +2739,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Paiva, M.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.327222,-41.501667],
@@ -2732,11 +2756,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Iraquara</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2744,7 +2768,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Santos, R.M.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.405833,-44.515556],
@@ -2757,15 +2781,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada de terra que sai da BR 135 para São Manoel do Norte e Jaborandi, ca. 16 km a partir de Correntina.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Correntina</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2773,7 +2797,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Miranda, E.B.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.810775,-38.222029],
@@ -2786,15 +2810,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Jauá</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Camaçari</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2802,7 +2826,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Mattos Silva, LA</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.883333,-42.55],
@@ -2815,15 +2839,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada do Espinheiro.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Pilão Arcado</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2831,7 +2855,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Passos, L.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.7597,-42.2983],
@@ -2844,15 +2868,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrda Remanso - Pilão Arcado ca. 30 km.de Pilão Arcado.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Remanso</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2860,7 +2884,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>L. Passos</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.879992,-43.739983],
@@ -2877,11 +2901,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Wanderley</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2889,7 +2913,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moraes, TM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.83834605,-41.09365167],
@@ -2902,15 +2926,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>ca. 3km às margens do rio do Sincorá</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Contendas do Sincorá</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2918,7 +2942,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Silva, M.M.da</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.069399833679,-42.474998474121],
@@ -2935,11 +2959,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Caetité</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2947,7 +2971,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, ML</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.879992,-43.739983],
@@ -2964,11 +2988,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Wanderley</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -2976,7 +3000,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moraes, TM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.463889,-42.513056],
@@ -2989,15 +3013,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Serra Geral, fazenda São Domingos. Jurema. P04</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Licínio de Almeida</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3005,7 +3029,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, ML; Gomes, FS; Melo, E; et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.551413388,-43.17490767],
@@ -3018,15 +3042,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Ramalho</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Campo Alegre de Lourdes</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3034,7 +3058,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L.P.de</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.8,-41.366667],
@@ -3047,15 +3071,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Chapada Diamantina, Próximo a cidade de Andaraí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Andaraí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3063,7 +3087,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, ML; Gomes, FS; Guaré, F; Silveira, ER; et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.748889,-43.390278],
@@ -3076,15 +3100,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Ca. 10 Km N Janaúba na estrada para Jaíba.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Janaúba</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3092,7 +3116,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L.P.de</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.58304247,-41.53437343],
@@ -3105,15 +3129,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Itaobim, arredores</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Itaobim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3121,7 +3145,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Hatschbach, G.; et al.; et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-18.644444,-44.0825],
@@ -3134,15 +3158,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Presidente Juscelino, Minas Gerais, Zona rural</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Presidente Juscelino</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3150,7 +3174,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Oliveira, ACC; Machado, ELM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-17.411382,-44.749531],
@@ -3163,15 +3187,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Varzea da Palma, Faz. da Mãe d'Agua, N. Minas</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Várzea da Palma</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3179,7 +3203,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>A. P. Duarte</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.771111,-41.969444],
@@ -3192,15 +3216,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Ca. 10,5 Km na estrada para Barro Alto.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Ibipeba</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3208,7 +3232,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Melo, E.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.296011,-42.199755],
@@ -3221,15 +3245,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Morro Branco.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Paramirim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3237,7 +3261,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Conceição, A.A.;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.716667,-42.766667],
@@ -3250,15 +3274,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Fazenda Boa Vista.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Boquira</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3266,7 +3290,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Salgado, OA; Bautista, HP</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.87760703,-40.14613052],
@@ -3279,15 +3303,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Estrada Pé-da-Serra - Jequié</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Jequié</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3295,7 +3319,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Sobral, M.; Mattos Silva, L.A.; Mattos Silva, L.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.925163,-41.087689],
@@ -3308,15 +3332,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>FLONA;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Contendas do Sincorá</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3324,7 +3348,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Costa, G.; Correia, F.R.; Vitório, C.D.P.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.80439337,-45.49018861],
@@ -3341,11 +3365,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Desidério</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3353,7 +3377,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Santos, R M</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.8,-41.366667],
@@ -3366,15 +3390,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Chapada Diamantina, próximo a cidade de Andaraí.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Andaraí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3382,7 +3406,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, M.L.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.586111,-44.32],
@@ -3395,15 +3419,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Ca, 5 Km S em estrada de terra que cruza pequeno ramal que sai a 5.1 km E de Ponto d'água, a 24,4 Km S de São Félix do Coribe na estrada para Coribe.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Coribe</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3411,7 +3435,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, L.P.de</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.298244,-42.246693],
@@ -3424,15 +3448,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Caminho Caturama para Mateus.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Paramirim</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3440,7 +3464,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Conceição, A.A.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.574256,-43.919794],
@@ -3457,11 +3481,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Wanderley</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3469,7 +3493,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Moraes, TM</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-8.634866,-42.482309],
@@ -3482,15 +3506,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>São João Vermelho.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Piauí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>João Costa</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3498,7 +3522,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Empearaire, L.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.569722,-42.466389],
@@ -3511,15 +3535,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Serra Geral, Lagoa da Vereda</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Licínio de Almeida</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3527,7 +3551,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Gomes, FS; Guedes, ML; Melo, E; et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.422173,-44.864494],
@@ -3540,15 +3564,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>APA do Rio PandeirosBalnéario</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Janúaria</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3556,7 +3580,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Menino,G.C.O | Azevedo,I.F.P | Brandão, D.O | Rodrigues,M.P.S | Tolentino,G.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.61905505,-43.92946916],
@@ -3569,15 +3593,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Fazenda Pequi Porteirinha</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Montes Claros</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3585,7 +3609,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>IGLESIAS, D.T.; FONSECA, R.S., SILVA, H.I.R.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-18.2880555,-44.185],
@@ -3598,15 +3622,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Mun. Santo Hipolito, estrada Corinto-Conselheiro Mata a 6 km E de Santo Hipolito.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Monjolos</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3614,7 +3638,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>José R. Pirani|et al.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-12.297581,-44.909087],
@@ -3627,15 +3651,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>BR 135.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Catolândia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3643,7 +3667,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Santos, R.M.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-8.867029,-42.633192],
@@ -3656,15 +3680,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>S. João Vermelho.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Piauí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Raimundo Nonato</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3672,7 +3696,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Laure Emperaire</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.303551,-44.115027],
@@ -3685,15 +3709,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Morro onde se encontra a torre de telefone, ca3,6km da estrada de Santa Maria da Vitória - Santana, entrando a ca10km N de Santa Maria de Vitória</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Santa Maria da Vitória</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3701,7 +3725,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Queiroz, LP</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.183333,-41.85],
@@ -3714,15 +3738,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Alto da Jurema.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Gabriel</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3730,7 +3754,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Machado, R.F.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.380721,-44.575936],
@@ -3743,15 +3767,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>5 Km de Correntina, sentido leste.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Correntina</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3759,7 +3783,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Freitas, J.G.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-11.753056,-41.835556],
@@ -3772,15 +3796,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Comunidade de Lagoa Funda, fazenda Lagoa Branca.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Barro Alto</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3788,7 +3812,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Nunes, T.S.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.614591,-42.533751],
@@ -3801,15 +3825,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Serra Geral, estrada de Guanambi para Iuiu.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Licínio de Almeida</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3817,7 +3841,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Guedes, M.L.S.;</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.135923,-40.775567],
@@ -3830,15 +3854,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Vicinity of Machado Portello.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Bahia</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Marcionílio Souza</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3846,7 +3870,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>J. N. Rose</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.991644,-43.902569],
@@ -3859,15 +3883,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Lagoa do Cajueiro</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Matias Cardoso</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3875,7 +3899,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Rose Hellen Rodrigues |</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.419773,-44.864618],
@@ -3888,15 +3912,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>APA do Rio Pandeiros-Ilha 005</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Januária</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3904,7 +3928,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Menino, G.C.O. | Braga, L.L. | Coutinho,C.A. | Oliveira, M.H. | Silva, W.A. |</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.516667,-42.15],
@@ -3921,11 +3945,11 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Coronel Murta</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3933,7 +3957,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Silva, FCF da</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-9.104555,-43.345884],
@@ -3946,15 +3970,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Parque Nacional da Serra das Confusões.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Piauí</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Caracol</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3962,7 +3986,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Santos, R.M.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-16.61905505,-43.92946916],
@@ -3975,15 +3999,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Fazenda Pequi Porteirinha</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Montes Claros</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -3991,7 +4015,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>SOUZA, C.L.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-15.556193,-44.492063],
@@ -4004,15 +4028,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>13 km by road W of Januária on road to Serra das Araras. Ca. 2 km E of large limestone hill.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Januária</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -4020,7 +4044,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>W. R. Anderson</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-13.5975,-46.83917],
@@ -4033,15 +4057,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Fazenda Paranã. Sr. Décio. Beira do rio São Domingos.</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Goiás</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>São Domingos</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -4049,7 +4073,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Anderson Cássio Sevilha</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`), L.circleMarker(
       [-14.863523,-43.97608],
@@ -4062,15 +4086,15 @@ document.addEventListener("DOMContentLoaded", () => {
     `<table class="table" style="max-width:300px;">
         <tr>
             <th>Localidade</th>
-            <td>Parque Estadual da Mata Seca</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Estado</th>
-            <td>Minas Gerais</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Município</th>
-            <td>Manga</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
         <tr>
             <th>Latitude/Longitude</th>
@@ -4078,7 +4102,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </tr>
         <tr>
             <th>Coletor</th>
-            <td>Luz, G.R. | Coutinho, E.S. | Dantas, I.M. | Mota, G.S. | Mota, N.M. | Oliveira, M.H. | Rodrigues, P.L. | Silva, D.L. | Souza, M.L. | Souza, S.R. | Veloso, C.V.R.A. |</td>
+            <td><em class="is-size-7 has-text-grey-light">Dado Indisponível</em></td>
         </tr>
     </table>`)]);
     overlays["Ocorrências"] = occurrences;
